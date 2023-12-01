@@ -1,6 +1,6 @@
 #NAME THE PIPELINE SAME AS FILE (WITHOUT ".yml")
 #Testing my PR
-# trigger: none
+ trigger: none
 resources:
   pipelines:
   - pipeline: eshoponweb-ci-dockercompose
