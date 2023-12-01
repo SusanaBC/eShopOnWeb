@@ -11,14 +11,14 @@ resources:
       trigger: none
 
 variables:
-  location: 'westeurope'
+  location: 'eastu'
   templateFile: '.azure/bicep/aci.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionid: '86d7ce15-b2bf-4a5c-be7a-b1e8d8d62eb0'
   azureserviceconnection: 'azure subs'
-  webappname: 'az400eshop-NAME'
+  webappname: 'rg-az400-eshoponweb-camerosusana'
   acr-login-server: 'YOUR-ACR.azurecr.io'
   acr-username: 'ACR-USERNAME'
-  resource-group: 'AZ400-EWebShop-NAME' 
+  resource-group: 'rg-az400-eshoponweb-camerosusana' 
 
 
 stages:
